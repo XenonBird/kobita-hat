@@ -4,16 +4,25 @@
 
 /* ALL FONTS */
 
-/* Bengali fonts */
+/* UI fonts */
+/* Bangla */
+@font-face {
+    font-family: "bn-kalpurush";
+    src: url("/public/fonts/bn-kalpurush.ttf");
+}
+
+/* English */
+@font-face {
+    font-family: "en-montserrat";
+    src: url("/public/fonts/en-montserrat.ttf");
+}
+
+/* Others */
 @font-face {
     font-family: "bn-kalpana";
     src: url("/public/fonts/bn-kalpana.ttf");
 }
 
-@font-face {
-    font-family: "bn-kalpurush";
-    src: url("/public/fonts/bn-kalpurush.ttf");
-}
 
 @font-face {
     font-family: "bn-noto";
@@ -41,10 +50,6 @@
     src: url("/public");
 }
 
-@font-face {
-    font-family: "en-montserrat";
-    src: url("/public/fonts/en-montserrat.ttf");
-}
 
 @font-face {
     font-family: "en-sacramento";

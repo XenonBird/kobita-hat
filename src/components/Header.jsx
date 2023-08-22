@@ -7,7 +7,7 @@ const Header = () => {
         <div className="flex justify-between items-center flex-wrap gap-2">
           <Link to="/" className="flex items-center gap-2">
             <img
-              src="/public/icon.png"
+              src="/icon.png"
               alt="kobita-hat-logo"
               className="h-10"
             />
