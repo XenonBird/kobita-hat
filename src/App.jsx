@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Home from "./components/Home";
 import FontsPreview from "./components/FontsPreview";
 import NotFound from "./components/NotFound";
+import Poems from "./components/Poems";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <main className="grow">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/poems" element={<Poems />} />
             <Route path="/fonts-preview" element={<FontsPreview />} />
             <Route path="/*" element={<NotFound />} />
           </Routes>

@@ -22,21 +22,21 @@ const Header = () => {
           <div className="flex items-center gap-4 ">
             <Link
               to="/poems"
-              className="p-2 px-4  hover:bg-amber-400 border-b-2 border-b-transparent hover:border-b-gray-800 transition-all"
+              className="p-2 px-4  border-b-2 border-b-transparent hover:border-b-gray-800 transition-all"
               data-tw-content=" "
             >
               Explore
             </Link>
             <Link
               to="/profile"
-              className="p-2 px-4 hover:bg-amber-400 border-b-2 border-b-transparent hover:border-b-gray-800 transition-all"
+              className="p-2 px-4 border-b-2 border-b-transparent hover:border-b-gray-800 transition-all"
               data-tw-content=" "
             >
               Profile
             </Link>
             <Link
               to="/fonts-preview"
-              className="p-2 px-4 hover:bg-amber-400 border-b-2 border-b-transparent hover:border-b-gray-800 transition-all"
+              className="p-2 px-4 border-b-2 border-b-transparent hover:border-b-gray-800 transition-all"
               data-tw-content=" "
             >
               Fonts

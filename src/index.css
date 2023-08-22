@@ -8,65 +8,65 @@
 /* Bangla */
 @font-face {
     font-family: "bn-kalpurush";
-    src: url("/public/fonts/bn-kalpurush.ttf");
+    src: url("/fonts/bn-kalpurush.ttf");
 }
 
 /* English */
 @font-face {
     font-family: "en-montserrat";
-    src: url("/public/fonts/en-montserrat.ttf");
+    src: url("/fonts/en-montserrat.ttf");
 }
 
 /* Others */
 @font-face {
     font-family: "bn-kalpana";
-    src: url("/public/fonts/bn-kalpana.ttf");
+    src: url("/fonts/bn-kalpana.ttf");
 }
 
 
 @font-face {
     font-family: "bn-noto";
-    src: url("/public/fonts/bn-noto.ttf");
+    src: url("/fonts/bn-noto.ttf");
 }
 
 @font-face {
     font-family: "bn-bensen";
-    src: url("/public/fonts/bn-bensen.ttf");
+    src: url("/fonts/bn-bensen.ttf");
 }
 
 @font-face {
     font-family: "bn-lipishree";
-    src: url("/public/fonts/bn-lipishree.ttf");
+    src: url("/fonts/bn-lipishree.ttf");
 }
 
 /* English fonts */
 @font-face {
     font-family: "en-cookie";
-    src: url("/public/fonts/en-cookie.ttf");
+    src: url("/fonts/en-cookie.ttf");
 }
 
 @font-face {
     font-family: "en-playfair";
-    src: url("/public");
+    src: url("");
 }
 
 
 @font-face {
     font-family: "en-sacramento";
-    src: url("/public/fonts/en-sacramento.ttf");
+    src: url("/fonts/en-sacramento.ttf");
 }
 
 @font-face {
     font-family: "en-satisfy";
-    src: url("/public/fonts/en-satisfy.ttf");
+    src: url("/fonts/en-satisfy.ttf");
 }
 
 @font-face {
     font-family: "en-tangerine";
-    src: url("/public/fonts/en-tangerine.ttf");
+    src: url("/fonts/en-tangerine.ttf");
 }
 
 @font-face {
     font-family: "en-lugrasimo";
-    src: url("/public/fonts/en-lugrasimo.ttf");
+    src: url("/fonts/en-lugrasimo.ttf");
 }

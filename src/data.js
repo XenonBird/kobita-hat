@@ -1,7 +1,7 @@
-const poems = [
+const poemsData = [
   {
     title: "দুই বিঘা জমি",
-    poet: "রবীন্দ্রনাথ ঠাকুর",
+    writer: "রবীন্দ্রনাথ ঠাকুর",
     content: `শুধু বিঘে দুই ছিল মোর ভুঁই   আর সবই গেছে ঋণে।
         বাবু বলিলেন, "বুঝেছ উপেন,   এ জমি লইব কিনে।'
         কহিলাম আমি, "তুমি ভূস্বামী,   ভূমির অন্ত নাই।
@@ -18,4 +18,4 @@ const poems = [
   },
 ];
 
-export default poems;
+export default poemsData;
