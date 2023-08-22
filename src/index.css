@@ -1,3 +1,67 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* ALL FONTS */
+
+/* Bengali fonts */
+@font-face {
+    font-family: "bn-kalpana";
+    src: url("/public/fonts/bn-kalpana.ttf");
+}
+
+@font-face {
+    font-family: "bn-kalpurush";
+    src: url("/public/fonts/bn-kalpurush.ttf");
+}
+
+@font-face {
+    font-family: "bn-noto";
+    src: url("/public/fonts/bn-noto.ttf");
+}
+
+@font-face {
+    font-family: "bn-bensen";
+    src: url("/public/fonts/bn-bensen.ttf");
+}
+
+@font-face {
+    font-family: "bn-lipishree";
+    src: url("/public/fonts/bn-lipishree.ttf");
+}
+
+/* English fonts */
+@font-face {
+    font-family: "en-cookie";
+    src: url("/public/fonts/en-cookie.ttf");
+}
+
+@font-face {
+    font-family: "en-playfair";
+    src: url("/public");
+}
+
+@font-face {
+    font-family: "en-montserrat";
+    src: url("/public/fonts/en-montserrat.ttf");
+}
+
+@font-face {
+    font-family: "en-sacramento";
+    src: url("/public/fonts/en-sacramento.ttf");
+}
+
+@font-face {
+    font-family: "en-satisfy";
+    src: url("/public/fonts/en-satisfy.ttf");
+}
+
+@font-face {
+    font-family: "en-tangerine";
+    src: url("/public/fonts/en-tangerine.ttf");
+}
+
+@font-face {
+    font-family: "en-lugrasimo";
+    src: url("/public/fonts/en-lugrasimo.ttf");
+}
