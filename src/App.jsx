@@ -4,19 +4,27 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import FontsPreview from "./components/FontsPreview";
+import NotFound from "./components/NotFound";
 
 function App() {
   return (
     <Router>
-      <Header />
+      <div
+        className="min-h-screen flex flex-col bg-amber-50"
+        style={{ fontFamily: "en-montserrat, bn-kalpurush" }}
+      >
+        <Header />
 
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/fonts-preview" element={<FontsPreview />} />
-        <Route path="/*" element={<pre>404 - Page not found</pre>} />
-      </Routes>
+        <main className="grow">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/fonts-preview" element={<FontsPreview />} />
+            <Route path="/*" element={<NotFound />} />
+          </Routes>
+        </main>
 
-      <Footer />
+        <Footer />
+      </div>
     </Router>
   );
 }

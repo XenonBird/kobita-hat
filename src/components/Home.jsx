@@ -1,5 +1,21 @@
+import { Link } from "react-router-dom";
+
 const Home = () => {
-  return <main className="p-8 flex flex-col gap-8 text-2xl">Home</main>;
+  return (
+      <div className="max-w-6xl mx-auto p-4">
+        <section className="mb-8 py-20 text-center">
+          <h1 className="text-4xl mb-16">
+            বাংলার মুখ আমি দেখিয়াছি, তাই আমি পৃথিবীর রূপ খুঁজিতে যাই না আর
+          </h1>
+          <Link
+            to="/"
+            className="px-6 py-3 font-semibold bg-amber-300 hover:bg-amber-400 rounded-md"
+          >
+            সেই বাংলার কবিতা
+          </Link>
+        </section>
+      </div>
+  );
 };
 
 export default Home;
