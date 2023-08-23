@@ -14,6 +14,10 @@ const poemsData = [
         দৈন্যের দায়ে বেচিব সে মায়ে   এমনি লক্ষ্মীছাড়া!'
         আঁখি করি লাল রাজা ক্ষণকাল   রহিল মৌনভাবে,
         কহিলেন শেষে ক্রূর হাসি হেসে,  "আচ্ছা, সে দেখা যাবে।'`,
+    titleAlign: "",
+    writerAlign: "",
+    writerVerAlign: "",
+    contentAlign: "",
     createdAt: new Date("2022-03-15").getTime(),
   },
 ];

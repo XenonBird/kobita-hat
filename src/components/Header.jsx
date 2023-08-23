@@ -6,11 +6,7 @@ const Header = () => {
       <nav className="max-w-6xl mx-auto p-4">
         <div className="flex justify-between items-center flex-wrap gap-2">
           <Link to="/" className="flex items-center gap-2">
-            <img
-              src="/icon.png"
-              alt="kobita-hat-logo"
-              className="h-10"
-            />
+            <img src="/icon.png" alt="kobita-hat-logo" className="h-10" />
             <h1
               className="text-md font-semibold"
               // style={{ fontFamily: "bn-kalpurush, en-montserrat" }}
@@ -33,6 +29,13 @@ const Header = () => {
               data-tw-content=" "
             >
               Profile
+            </Link>
+            <Link
+              to="/write"
+              className="p-2 px-4 border-b-2 border-b-transparent hover:border-b-gray-800 transition-all"
+              data-tw-content=" "
+            >
+              Write
             </Link>
             <Link
               to="/fonts-preview"
