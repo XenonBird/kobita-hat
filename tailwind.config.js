@@ -9,6 +9,9 @@ export default {
       fontFamily: {
         ...fonts,
       },
+      aspectRatio: {
+        a4: "1 / 1.41",
+      },
     },
   },
   plugins: [],
